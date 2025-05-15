@@ -1,9 +1,9 @@
 # Learn Git
 
-# 1. สร้างไฟล์อะไรสักอย่าง (เช่น README.md)
+### 1. สร้างไฟล์อะไรสักอย่าง (เช่น README.md)
 echo "# Learn Git" > README.md
 
-# 2. init git (ไม่จำเป็นจริงๆ เพราะ clone มาแล้ว แต่นี่เพื่อความมั่นใจว่ามี branch)
+### 2. init git (ไม่จำเป็นจริงๆ เพราะ clone มาแล้ว แต่นี่เพื่อความมั่นใจว่ามี branch)
 git init -b main
 
 # 3. add ไฟล์เข้า staging area
