@@ -70,3 +70,9 @@ git push -u origin main
 `✅ แนะนำ:
 ใช้ pull --rebase ดีกว่า เพราะคุณจะได้ไม่ลบของเดิมที่อาจมีคนอื่น (หรือคุณเอง) เคย push ไว้`
 
+clone git link on CMD or Terminal :
+1. cd ..in to folder
+2. git clone ..link...
+   ขั้นตอนการเปิดโปรเจค on CMD or Terminal
+3. cd ..name project
+4. code . 
