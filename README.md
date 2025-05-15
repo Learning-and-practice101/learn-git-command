@@ -16,7 +16,7 @@ git commit -m "initial commit"
 git remote add origin https://github.com/cryptoclaw/learn-git.git
 
 ### 6. push ขึ้นไปที่ branch main พร้อมตั้งค่า upstream
-git push -u origin main
+   git push -u origin main
 
 ` _คำอธิบายเพิ่มเติม_
 error src refspec main does not match any แปลว่า ยังไม่มี branch main หรือยังไม่มี commit แรกเลย
