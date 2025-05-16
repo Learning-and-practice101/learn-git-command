@@ -125,4 +125,4 @@ git remote -v
 ```bash
 git remote show origin 
 ```
-จะบอกรายละเอียดเช่นว่า push/pull ไปที่ไหน, branch ไหน track อะไรอยู่ เป็นต้นครับ\
+จะบอกรายละเอียดเช่นว่า push/pull ไปที่ไหน, branch ไหน track อะไรอยู่ เป็นต้นครับ
