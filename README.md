@@ -1,5 +1,6 @@
 # Learn Git
 
+### create repository
 1. สร้างไฟล์อะไรสักอย่าง (เช่น README.md) 
 echo "# Learn Git" > README.md 
 
@@ -24,6 +25,7 @@ git remote add origin https://github.com/cryptoclaw/learn-git.git
 git push -u origin main
 ```
 
+### remote set up connect repository github
 คำอธิบายเพิ่มเติม
 `error src refspec main does not match any` แปลว่า ยังไม่มี `branch main` หรือยังไม่มี `commit` แรกเลย
 เมื่อ `clone repo` เปล่า (empty repo) จะไม่มี `branch` จนกว่าจะมี `commit` แรก
@@ -60,7 +62,7 @@ git remote set-url origin git@github.com:cryptoclaw/learn-git.git
 git push -u origin main
 ```
 
-✅ วิธีเช็กว่าใช้บัญชี GitHub ตัวไหนอยู่
+### ✅ วิธีเช็กว่าใช้บัญชี GitHub ตัวไหนอยู่
 ```bash
 git config --global user.name
 ```
@@ -75,6 +77,7 @@ git config --global user.name "cryptoclaw"
 git config --global user.email "your-email@example.com"
 ```
 
+### push ไม่ได้
 กรณี บน GitHub (remote) มี commit ที่ คุณไม่มีอยู่ในเครื่อง (local) \
 เลยไม่สามารถ push ได้ เพราะจะทำให้ข้อมูลบน GitHub หายไป (Git ป้องกันไว้)
 
@@ -98,6 +101,7 @@ git push -u origin main
 ✅ แนะนำ:
 ใช้ pull --rebase ดีกว่า เพราะคุณจะได้ไม่ลบของเดิมที่อาจมีคนอื่น (หรือคุณเอง) เคย push ไว้
 
+### Clone github
 clone git link on CMD or Terminal :
 1. cd ..in to folder
 2. git clone ..link...
@@ -105,6 +109,7 @@ clone git link on CMD or Terminal :
 3. cd ..name project
 4. code . 
 
+### who are you remote now?
 repository ในเครื่องของคุณเชื่อมกับ remote อะไรอยู่  (เช่น origin ไปที่ GitHub หรือที่อื่น) ให้ใช้คำสั่งนี้:
 ```bash git remote -v ```
 
