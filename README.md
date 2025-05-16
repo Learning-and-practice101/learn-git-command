@@ -5,7 +5,7 @@
 echo "# Learn Git" > README.md 
 
 2. init git (ไม่จำเป็นจริงๆ เพราะ clone มาแล้ว แต่นี่เพื่อความมั่นใจว่ามี branch) 
-git init -b main 
+```bash git init `-b main ` ```
 
 3. add ไฟล์เข้า staging area 
 ```bash 
