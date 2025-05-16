@@ -94,7 +94,11 @@ git pull --rebase origin main
 git push -u origin main
 ```
 
-จริงๆสามารถใช้ ```bash git push -f origin main ``` ได้เลย
+จริงๆสามารถใช้ 
+```bash 
+git push -f origin main
+```
+ได้เลย
 
 ⚠️ หรือถ้าคุณมั่นใจว่าอยาก ลบของบน GitHub ทิ้งทั้งหมด แล้วเอาของคุณแทน:
 ```bash git push -u origin main --force ```
@@ -117,7 +121,7 @@ repository ในเครื่องของคุณเชื่อมกั
 git remote -v
 ```
 
-ถ้าอยากดูรายละเอียดเพิ่มเติมของ remote \
+ถ้าอยากดูรายละเอียดเพิ่มเติมของ remote
 ```bash
 git remote show origin 
 ```
