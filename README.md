@@ -80,6 +80,6 @@ clone git link on CMD or Terminal :
 repository ในเครื่องของคุณเชื่อมกับ remote อะไรอยู่  (เช่น origin ไปที่ GitHub หรือที่อื่น) ให้ใช้คำสั่งนี้:
 git remote -v
 
-ถ้าอยากดูรายละเอียดเพิ่มเติมของ remote
-git remote show origin
-จะบอกรายละเอียดเช่นว่า push/pull ไปที่ไหน, branch ไหน track อะไรอยู่ เป็นต้นครับ
+ถ้าอยากดูรายละเอียดเพิ่มเติมของ remote \
+git remote show origin\
+จะบอกรายละเอียดเช่นว่า push/pull ไปที่ไหน, branch ไหน track อะไรอยู่ เป็นต้นครับ\
