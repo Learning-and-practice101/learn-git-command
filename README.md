@@ -9,7 +9,7 @@ echo "# Learn Git" > README.md
 git init -b main
 ```
 
-4. add ไฟล์เข้า staging area 
+3. add ไฟล์เข้า staging area 
 ```bash 
 git add .
 ```
