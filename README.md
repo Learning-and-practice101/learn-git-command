@@ -1,30 +1,30 @@
 # Learn Git
 
-### 1. สร้างไฟล์อะไรสักอย่าง (เช่น README.md) \
-echo "# Learn Git" > README.md \
+1. สร้างไฟล์อะไรสักอย่าง (เช่น README.md) 
+echo "# Learn Git" > README.md 
 
-### 2. init git (ไม่จำเป็นจริงๆ เพราะ clone มาแล้ว แต่นี่เพื่อความมั่นใจว่ามี branch) \
-git init -b main \
+2. init git (ไม่จำเป็นจริงๆ เพราะ clone มาแล้ว แต่นี่เพื่อความมั่นใจว่ามี branch) 
+git init -b main 
 
-### 3. add ไฟล์เข้า staging area \
+3. add ไฟล์เข้า staging area 
 ```bash 
 git add .
 ```
 
-### 4. commit ไฟล์ลง local repo
+4. commit ไฟล์ลง local repo
 ```bash 
 git commit -m "initial commit"
 ```
-### 5. เชื่อม remote origin (ถ้ายังไม่เชื่อม)
+5. เชื่อม remote origin (ถ้ายังไม่เชื่อม)
 ```bash 
 git remote add origin https://github.com/cryptoclaw/learn-git.git
 ```
-### 6. push ขึ้นไปที่ branch main พร้อมตั้งค่า upstream
+6. push ขึ้นไปที่ branch main พร้อมตั้งค่า upstream
 ```bash 
 git push -u origin main
 ```
 
-### คำอธิบายเพิ่มเติม
+คำอธิบายเพิ่มเติม
 `error src refspec main does not match any` แปลว่า ยังไม่มี `branch main` หรือยังไม่มี `commit` แรกเลย
 เมื่อ `clone repo` เปล่า (empty repo) จะไม่มี `branch` จนกว่าจะมี `commit` แรก
 
