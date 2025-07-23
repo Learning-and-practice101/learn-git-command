@@ -137,3 +137,5 @@ git merge main
 git pull origin readme-update (ถ้า file ไม่ตรงกับ github ต้อง pull มาให้ตรงกับ github)
 git push origin readme-update
 ```
+<img width="889" height="592" alt="image" src="https://github.com/user-attachments/assets/db99d9f2-4c1a-4126-9992-e3930ba17eb8" /><br>
+<img width="939" height="649" alt="image" src="https://github.com/user-attachments/assets/991fbd55-f0f3-4dd9-85f0-f000731235a5" /><br>
