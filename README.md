@@ -129,11 +129,11 @@ git remote show origin
 
 ### จะ merge file
 check branh <br>
-``
+```
 git add. 
 git commit -m "day_6"
 git checkout readme-update
 git merge main
 git pull origin readme-update (ถ้า file ไม่ตรงกับ github ต้อง pull มาให้ตรงกับ github)
 git push origin readme-update
-``
+```
